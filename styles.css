@@ -1,6 +1,7 @@
 body {
   max-width: 1440px;
   margin: 0 auto;
+  background: #FAF8F5;
 
   font-family: 'Satoshi', sans-serif;
 }
@@ -8,6 +9,7 @@ body {
 header {
   width: 84.44%;
   height: 80px;
+  position: fixed;
 
   display: flex;
   justify-content: space-between;
@@ -53,4 +55,47 @@ header {
   width: 93px;
   border-radius: 8px;
   background-color: #0F0F14;
+}
+
+#hero-section {
+  width: 84.44%;
+  height: 607.5px;
+
+  margin-top: 64px;
+}
+
+.discount-button {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  width: 265px;
+  height: 32px;
+  border-radius: 16px;
+
+  background: #F9F5FF;
+  color: #6941C6;
+}
+
+.discount-new {
+  width: 55px;
+  height: 24px;
+  border-radius: 16px;
+
+  text-align: center;
+
+  background: #FFFFFF;
+
+  margin-left: 4px;
+}
+
+.discount-phrase {
+  margin-left: 12px;
+  margin-right: 7.33px;
+}
+
+
+main {
+  width: 100%;
+  background: #FFFFFF;
 }
