@@ -64,6 +64,13 @@ header {
   margin-top: 64px;
 }
 
+.hero-left-container {
+  width: 579.25px;
+
+  display: flex;
+  flex-direction: column;
+}
+
 .discount-button {
   display: flex;
   justify-content: space-between;
