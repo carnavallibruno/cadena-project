@@ -1,0 +1,54 @@
+body {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+header {
+  width: 84.44%;
+  height: 80px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-left {
+  width: 378.58px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-items-container {
+  list-style: none;
+
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+
+.navbar-items {
+  cursor: pointer;
+  color: #1B1C20;
+}
+
+.header-buttons {
+  width: 187px;
+  height: 44px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#login-button {
+  width: 82px;
+  color: #1B1C20;
+}
+
+#signup-button {
+  width: 93px;
+  border-radius: 8px;
+  background-color: #0F0F14;
+}
