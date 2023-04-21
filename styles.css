@@ -24,6 +24,15 @@ header {
   align-items: center;
 }
 
+.logo-container {
+  width: 133.58px;
+  height: 32px;
+}
+
+#logo-image {
+  width: 100%;
+}
+
 .navbar-items-container {
   list-style: none;
 
@@ -54,6 +63,8 @@ header {
 #signup-button {
   width: 93px;
   border-radius: 8px;
+
+  color: #FFFFFF;
   background-color: #0F0F14;
 }
 
