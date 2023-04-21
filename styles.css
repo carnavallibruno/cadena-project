@@ -70,26 +70,33 @@ header {
 
 #hero-section {
   width: 84.44%;
-  height: 607.5px;
+  height: 767.5px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 
   margin-top: 64px;
 }
 
 .hero-left-container {
-  width: 579.25px;
+  width: 489px;
 
   display: flex;
   flex-direction: column;
 }
 
-.discount-button {
+#discount-button {
+  width: 265px;
+  height: 32px;
+  border-radius: 16px;
+
+  font-family: 'Inter';
+
   display: flex;
   justify-content: space-between;
   align-items: center;
 
-  width: 265px;
-  height: 32px;
-  border-radius: 16px;
 
   background: #F9F5FF;
   color: #6941C6;
@@ -112,6 +119,50 @@ header {
   margin-right: 7.33px;
 }
 
+.hero-content {
+  height: 261px;
+
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+
+  margin-top: 16px;
+}
+
+.hero-content h3 {
+  color: #1B1C20;
+
+  height: 177px;
+
+  font-size: 44px;
+  font-weight: 700;
+  line-height: 59.4px;
+}
+
+.hero-content p {
+  color: #383A47;
+
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+
+  margin-top: 24px;
+}
+
+.blue-letters {
+  color: #712FFF;
+}
+
+.hero-store-buttons {
+  width: 372.2px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 15px;
+
+  margin-top: 32px;
+}
 
 main {
   width: 100%;
