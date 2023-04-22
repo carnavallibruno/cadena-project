@@ -56,11 +56,15 @@ header {
 }
 
 #login-button {
+  font-family: 'Satoshi', sans-serif;
+
   width: 82px;
   color: #1B1C20;
 }
 
 #signup-button {
+  font-family: 'Satoshi', sans-serif;
+
   width: 93px;
   border-radius: 8px;
 
@@ -92,6 +96,8 @@ header {
   border-radius: 16px;
 
   font-family: 'Inter';
+  font-weight: 500;
+  font-size: 14px;
 
   display: flex;
   justify-content: space-between;
@@ -167,4 +173,41 @@ header {
 main {
   width: 100%;
   background: #FFFFFF;
+}
+
+#partners {
+  width: 100%;
+  height: 183.66px;
+}
+
+.partners-container {
+  width: 100%;
+  height: 83.66px;
+
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+}
+
+.partners-text {
+  color: #797B89;
+  
+  height: 28px;
+
+  font-size: 15px;
+  font-weight: 500;
+
+  letter-spacing: -0.09px;
+  line-height: 27.18px;
+}
+
+.partners-logos {
+  width: 88.88%;
+  height: 36.66px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
