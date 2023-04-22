@@ -29,7 +29,7 @@
   text-align: center;
 }
 
-#features-left-and-right-container {
+#features-content-container {
   width: 100%;
   height: 660.3px;
 
@@ -42,10 +42,11 @@
 
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  gap: 28.35px;
 }
 
 #features-right {
+  width: 408.03px;
   height: 660.3px;
 }
 
