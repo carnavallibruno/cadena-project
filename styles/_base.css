@@ -14,3 +14,9 @@ main {
 span {
   color: #712FFF;
 }
+
+@media screen and (max-width: 376px) {
+  body {
+    max-width: 375px;
+  }
+}

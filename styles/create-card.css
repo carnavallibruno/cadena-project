@@ -82,3 +82,51 @@
   justify-content: space-between;
   align-items: center;
 }
+
+@media screen and (max-width: 376px) {
+  #create-card {
+    width: 100%;
+    height: 926.72px;
+  }
+
+  #create-card-content-container {
+    width: 89.33%;
+    height: 802px;
+  }
+
+  #background-div {
+    background-image: url('../assets/images/cards-mobile.png');
+    background-position: center bottom;
+  }
+
+  #content-container {
+    width: 295px;
+    height: 350px;
+
+    margin-top: 50px;
+    margin-left: 20px;
+  }
+
+  #top-container {
+    height: 268px;
+  }
+  
+  #top-container h3 {
+    font-size: 24px;
+    line-height: 32px;
+  }
+  
+  #top-container p {
+    font-size: 16px;  
+    line-height: 30px;
+  }
+
+  #get-a-card-button {
+    width: 150px;
+    height: 50px;
+  }
+  
+  #button-content-container {
+    width: 106px;
+  }
+}

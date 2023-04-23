@@ -1,0 +1,36 @@
+#footer-mobile {
+  display: none;
+}
+
+@media screen and (max-width: 376px) {
+  #footer-mobile {
+    height: 321px;
+
+    display: flex;
+    flex-direction: column;
+  }
+
+  #footer-mobile-content-container {
+    width: 335px;
+    height: 209px;
+
+    margin-top: 72px;
+    margin-left: 20px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  #footer-mobile-copyright {
+    color: #797B89;
+
+    width: 303px;
+
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+  }
+}

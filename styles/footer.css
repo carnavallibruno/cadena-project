@@ -1,4 +1,4 @@
-footer {
+#footer-desktop {
   width: 100%;
   height: 128px;
 
@@ -35,4 +35,10 @@ footer {
 
 .social-icon {
   cursor: pointer;
+}
+
+@media screen and (max-width: 376px) {
+  #footer-desktop {
+    display: none;
+  }
 }
