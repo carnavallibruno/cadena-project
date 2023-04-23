@@ -16,6 +16,8 @@
 
 #background-div {
   background-image: url('../assets/images/cards.png');
+  background-position: right bottom;
+  background-repeat: no-repeat;
 }
 
 #content-container {
