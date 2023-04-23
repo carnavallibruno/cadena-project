@@ -1,5 +1,5 @@
 header {
-  width: 84.44%;
+  width: 84.44%;  
   height: 80px;
   position: fixed;
 
@@ -16,7 +16,7 @@ header {
   align-items: center;
 }
 
-.logo-container {
+#logo-container {
   width: 133.58px;
   height: 32px;
 }
@@ -37,8 +37,7 @@ header {
   cursor: pointer;
   color: #1B1C20;
 }
-
-.header-buttons {
+#header-buttons {
   width: 187px;
   height: 44px;
 
@@ -62,4 +61,35 @@ header {
 
   color: #FFFFFF;
   background-color: #0F0F14;
+}
+
+#hamburger-menu {
+  display: none;
+}
+
+
+
+@media screen and (max-width: 376px) {
+  header {
+    width: 89.42%;
+    height: 58px;
+  }
+
+  #logo-container {
+    width: 125.23px;
+    height: 30px;
+  }
+
+  nav {
+    display: none;
+  }
+
+  #header-buttons {
+    display: none;
+  }
+
+
+  #hamburger-menu {
+    display: block;
+  }
 }
