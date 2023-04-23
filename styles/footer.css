@@ -1,0 +1,34 @@
+footer {
+  width: 100%;
+  height: 128px;
+
+  display: flex;
+  align-items: center;
+}
+
+#footer-content-container {
+  width: 84.44%;
+  height: 32px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.social-container {
+  width: 120px;
+  height: 24px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-copyright {
+  font-family: 'Inter';
+
+  color: #797B89;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
