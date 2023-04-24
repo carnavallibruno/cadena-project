@@ -87,6 +87,10 @@ header {
     height: 30px;
   }
 
+  .header-left {
+    width: 125.3px;
+  }
+
   #logo-container {
     width: 125.23px;
     height: 30px;
