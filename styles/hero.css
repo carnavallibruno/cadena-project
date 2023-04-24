@@ -64,7 +64,7 @@
   margin-top: 16px;
 }
 
-#hero-content h3 {
+#hero-content-title {
   color: #1B1C20;
 
   height: 177px;
@@ -72,9 +72,14 @@
   font-size: 44px;
   font-weight: 700;
   line-height: 59.4px;
+  letter-spacing: -0.02em;
 }
 
-#hero-content p {
+.hero-content-title-dark {
+  color: #FFFFFF;
+}
+
+#hero-content-text {
   color: #383A47;
 
   font-size: 20px;
@@ -82,6 +87,10 @@
   line-height: 30px;
 
   margin-top: 24px;
+}
+
+.hero-content-text-dark {
+  color: #E7E7E7;
 }
 
 #hero-store-buttons {
@@ -112,8 +121,16 @@
     width: 100%;
   }
 
-  #hero-content p {
+  #hero-content-title {
+    font-size: 32px;
+    line-height: 43px;
+  }
+
+  #hero-content-text {
     margin-top: 16px;
+
+    font-size: 16px;
+    font-weight: 400;
   }
 
   #hero-left-container {
