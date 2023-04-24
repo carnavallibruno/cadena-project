@@ -33,6 +33,10 @@
   line-height: 24px;
 }
 
+.footer-copyright-dark {
+  color: #B8B8B8;
+}
+
 .social-icon {
   cursor: pointer;
 }

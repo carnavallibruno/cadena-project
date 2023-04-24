@@ -15,6 +15,10 @@ span {
   color: #712FFF;
 }
 
+.dark-background {
+  background: #060809;
+}
+
 @media screen and (max-width: 376px) {
   body {
     max-width: 375px;

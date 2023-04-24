@@ -14,6 +14,10 @@
   border-radius: 25.6px;
 }
 
+.create-card-content-container-dark {
+  background: #FAF8F5;
+}
+
 #background-div {
   background-image: url('../assets/images/cards.png');
   background-position: right bottom;
@@ -40,7 +44,7 @@
   justify-content: space-between;
 }
 
-#top-container h3 {
+#top-container-title {
   color: #383A47;
 
   font-size: 43px;
@@ -49,13 +53,21 @@
   line-height: 58px;
 }
 
-#top-container p {
+.top-container-title {
+  color: #FFFFFF;
+}
+
+#top-container-text {
   color: #797B89;
 
   font-weight: 400;
   font-size: 20px;
 
   line-height: 30px;
+}
+
+.top-container-text {
+  color: #B8B8B8;
 }
 
 #get-a-card-button {
@@ -72,6 +84,11 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.get-a-card-button-dark {
+  color: #1B1C20;
+  background: #FFFFFF;
 }
 
 #button-content-container {
