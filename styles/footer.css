@@ -27,6 +27,36 @@
   cursor: pointer;
 }
 
+.social-icon-dark {
+  display: hidden;
+}
+
+.social-icon-white {
+  display: hidden;
+}
+
+.social-icon-white-dark {
+  display: block;
+  cursor: pointer;
+}
+
+.footer-logo {
+  display: block;
+}
+
+.footer-logo-dark {
+  display: none;
+}
+
+
+.footer-logo-white {
+  display: none;
+}
+
+.footer-logo-white-dark {
+  display: block;
+}
+
 #footer-copyright {
   font-family: 'Inter';
 

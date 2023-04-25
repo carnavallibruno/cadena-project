@@ -36,6 +36,18 @@ header {
   width: 100%;
 }
 
+.logo-image-dark {
+  display: hidden;
+}
+
+#logo-image-white {
+  display: hidden;
+}
+
+.logo-image-white-dark {
+  display: block;
+}
+
 #navbar-items-container {
   list-style: none;
 

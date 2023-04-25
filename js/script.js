@@ -1,17 +1,18 @@
-function switchThemes () {
-
+function switchThemes() {
   // ? Base
   var body = document.body;
   var main = document.getElementById("main");
 
   // ? Header
+  var logoBlack = document.getElementById("logo-image");
+  var logoWhite = document.getElementById("logo-image-white");
   var navbar = document.getElementsByClassName("navbar-items");
   var loginButton = document.getElementById("login-button");
   var signupButton = document.getElementById("signup-button");
   var switchThemeButton = document.getElementById("theme-switch");
 
   // ? Hero
-  var discountButton = document.getElementyId("discount-new");
+  var discountButton = document.getElementById("discount-new");
   var heroTitle = document.getElementById("hero-content-title");
   var heroContent = document.getElementById("hero-content-text");
 
@@ -19,7 +20,9 @@ function switchThemes () {
   var partnersText = document.getElementById("partners-text");
 
   // ? Features
-  var featuresTitle = document.getElementById("features-title-container-h4features-title-container-h4");
+  var featuresTitle = document.getElementById(
+    "features-title-container-h4features-title-container-h4"
+  );
   var cards = document.getElementsByClassName("cards");
   var cardTitle = document.getElementsByClassName("card-title");
   var cardDescription = document.getElementsByClassName("card-description");
@@ -32,8 +35,14 @@ function switchThemes () {
   var getACard = document.getElementById("get-a-card-button");
 
   // ? Footer
+  var footerLogoBlack = document.getElementsByClassName("footer-logo");
+  var footerLogoWhite = document.getElementsByClassName("footer-logo-white");
+  var socialIcons = getElementsByClassName("social-icon");
+  var socialIconsWhite = getElementsByClassName("social-icon-white");
   var footerCopyright = document.getElementById("footer-copyright");
-  var footerCopyrightMobile = document.getElementById("footer-mobile-copyright");
+  var footerCopyrightMobile = document.getElementById(
+    "footer-mobile-copyright"
+  );
 
   // ! ----------------------------------------------------------
 
@@ -42,6 +51,8 @@ function switchThemes () {
   main.classList.toggle("dark-background");
 
   // ? Header
+  logoBlack.classList.toggle("logo-image-dark");
+  logoWhite.classList.toggle("logo-image-white-dark");
   navbar.classList.toggle("navbar-items-dark");
   loginButton.classList.toggle("login-button-dark");
   signupButton.classList.toggle("signup-button-dark");
@@ -69,8 +80,12 @@ function switchThemes () {
   getACard.classList.toggle("get-a-card-button-dark");
 
   // ? Footer
+  footerLogoBlack.classList.toggle("footer-logo-dark");
+  footerLogoWhite.classList.toggle("footer-logo-white-dark");
+  socialIcons.classList.toggle("social-icon-dark");
+  socialIconsWhite.classList.toggle("social-icon-white-dark");
   footerCopyright.classList.toggle("footer-copyright-dark");
 
   // ? Footer mobile
-  footerCopyrightMobile.classList.toggle("footer-mobile-copyright-dark")
+  footerCopyrightMobile.classList.toggle("footer-mobile-copyright-dark");
 }
