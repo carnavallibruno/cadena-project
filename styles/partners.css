@@ -1,6 +1,10 @@
 #partners {
   width: 100%;
   height: 183.66px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 #partners-container {
@@ -8,10 +12,9 @@
   height: 83.66px;
 
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   flex-direction: column;
   align-items: center;
-  gap: 24px;
 }
 
 #partners-text {

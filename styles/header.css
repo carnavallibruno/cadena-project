@@ -17,7 +17,7 @@ header {
   align-items: center;
 }
 
-.header-left {
+#header-left {
   width: 378.58px;
 
   display: flex;
@@ -34,7 +34,7 @@ header {
   width: 100%;
 }
 
-.navbar-items-container {
+#navbar-items-container {
   list-style: none;
 
   display: flex;
