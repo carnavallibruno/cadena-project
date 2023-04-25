@@ -52,7 +52,7 @@
   }
 
   #partners-logos {
-    display: flex;
-    justify-content: space-around;
+    width: 89.33%;
+    height: 60px;
   }
 }

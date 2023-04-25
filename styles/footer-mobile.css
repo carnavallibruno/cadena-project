@@ -4,10 +4,10 @@
 
 @media screen and (max-width: 376px) {
   #footer-mobile {
-    height: 321px;
-
     display: flex;
     flex-direction: column;
+
+    height: 321px;
   }
 
   #footer-mobile-content-container {

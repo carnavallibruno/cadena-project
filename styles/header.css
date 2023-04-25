@@ -46,6 +46,19 @@ header {
   cursor: pointer;
   color: #1B1C20;
 }
+
+.navbar-items-dark {
+  color: #FFFFFF;
+}
+
+#theme-switch {
+  color: #1B1C20;
+}
+
+.theme-switch-dark {
+  color: #FFFFFF;
+}
+
 #header-buttons {
   width: 187px;
   height: 44px;
@@ -62,6 +75,10 @@ header {
   color: #1B1C20;
 }
 
+.login-button-dark {
+  color: #FFFFFF;
+}
+
 #signup-button {
   font-family: 'Satoshi', sans-serif;
 
@@ -70,6 +87,11 @@ header {
 
   color: #FFFFFF;
   background-color: #0F0F14;
+}
+
+.signup-button-dark {
+  color: #383A47;
+  background-color: #FFFFFF;
 }
 
 #hamburger-menu {
@@ -87,7 +109,7 @@ header {
     height: 30px;
   }
 
-  .header-left {
+  #header-left {
     width: 125.3px;
   }
 

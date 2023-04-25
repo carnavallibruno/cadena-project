@@ -48,9 +48,15 @@
 
   text-align: center;
 
+  color: #6941C6;
   background: #FFFFFF;
 
   margin-left: 4px;
+}
+
+.discount-new-dark {
+  color: #FFFFFF;
+  background: #7F56D9;
 }
 
 #discount-phrase {

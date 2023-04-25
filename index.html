@@ -43,6 +43,9 @@
               <li class="navbar-items">Terms</li>
             </ul>
           </nav>
+          <div id="theme-switch-container">
+            <button id="theme-switch" onclick="switchThemes()">Switch</button>
+          </div>
         </div>
         <div id="header-buttons">
           <button id="login-button">Login</button>
@@ -212,7 +215,7 @@
       </section>
       <footer id="footer-desktop">
         <div id="footer-content-container">
-          <div class="social-container">
+          <div id="social-container">
             <img
               src="./assets/icons/twitter-icon.svg"
               alt="Twitter logo"
@@ -230,11 +233,11 @@
             />
           </div>
 
-          <div class="footer-logo-container">
+          <div id="footer-logo-container">
             <img src="./assets/images/cadena-logo.svg" alt="Cadena logo" />
           </div>
 
-          <div class="footer-copyright">
+          <div id="footer-copyright">
             <p>Copyright © 2023 cadena. All rights reserved.</p>
           </div>
         </div>
@@ -242,8 +245,12 @@
 
       <footer id="footer-mobile">
         <div id="footer-mobile-content-container">
-          <div class="footer-mobile-logo-container">
-            <img src="./assets/images/cadena-logo.svg" alt="Cadena logo" />
+          <div id="footer-mobile-logo-container">
+            <img
+              src="./assets/images/cadena-logo.svg"
+              alt="Cadena logo"
+              class="cadena-logo-black"
+            />
           </div>
 
           <div class="divider">
@@ -274,5 +281,6 @@
         </div>
       </footer>
     </main>
+    <script src="./js/script.js"></script>
   </body>
 </html>
