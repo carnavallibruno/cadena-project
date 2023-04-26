@@ -88,16 +88,27 @@
             <img
               src="./assets/images/app-store-download.png"
               alt="App Store download"
+              class="store-button"
             />
             <img
               src="./assets/images/google-play-download.png"
               alt="Google Play download"
+              class="store-button"
             />
           </div>
         </div>
 
         <div id="hero-img-container">
-          <img src="./assets/images/hero-cards-image.png" alt="Hero image" />
+          <img
+            src="./assets/images/hero-cards-image.png"
+            alt="Hero image"
+            id="hero-img"
+          />
+          <img
+            src="./assets/images/hero-cards-image-mobile.png"
+            alt="Hero image"
+            id="hero-img-mobile"
+          />
         </div>
       </div>
     </section>
@@ -197,30 +208,28 @@
       </section>
       <section id="create-card">
         <div id="create-card-content-container">
-          <div id="background-div">
-            <div id="content-container">
-              <div id="top-container">
-                <h3 id="top-container-title">
-                  Create Unique Cards in <span>Style</span>
-                </h3>
-                <p id="top-container-text">
-                  Our cards offer more than just attractive design. They also
-                  feature instant payment notifications and in-app card security
-                  management. Plus, you can start making purchases right away
-                  using Google Pay or Apple Pay.
-                </p>
-              </div>
-              <div id="button-container">
-                <button id="get-a-card-button">
-                  <div id="button-content-container">
-                    <p>Get a Card</p>
-                    <img
-                      src="./assets/icons/white-arrow.svg"
-                      alt="Button arrow"
-                    />
-                  </div>
-                </button>
-              </div>
+          <div id="content-container">
+            <div id="top-container">
+              <h3 id="top-container-title">
+                Create Unique Cards in <span>Style</span>
+              </h3>
+              <p id="top-container-text">
+                Our cards offer more than just attractive design. They also
+                feature instant payment notifications and in-app card security
+                management. Plus, you can start making purchases right away
+                using Google Pay or Apple Pay.
+              </p>
+            </div>
+            <div id="button-container">
+              <button id="get-a-card-button">
+                <div id="button-content-container">
+                  <p>Get a Card</p>
+                  <img
+                    src="./assets/icons/white-arrow.svg"
+                    alt="Button arrow"
+                  />
+                </div>
+              </button>
             </div>
           </div>
         </div>
@@ -299,7 +308,7 @@
             <img src="./assets/images/Divider.png" alt="" />
           </div>
 
-          <div class="social-container">
+          <div id="social-container">
             <img
               src="./assets/icons/twitter-icon.svg"
               alt="Twitter logo"
@@ -333,7 +342,7 @@
             />
           </div>
 
-          <div class="footer-mobile-copyright">
+          <div id="footer-mobile-copyright">
             <p>Copyright © 2023 cadena. All rights reserved.</p>
           </div>
         </div>
