@@ -38,8 +38,6 @@
   justify-content: space-between;
   align-items: center;
 
-  cursor: pointer;
-
   background: #F9F5FF;
   color: #6941C6;
 }
@@ -123,6 +121,10 @@
   gap: 15px;
 
   margin-top: 32px;
+}
+
+#hero-store-buttons img {
+  cursor: pointer;
 }
 
 .store-button {
