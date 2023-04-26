@@ -3,6 +3,7 @@
   height: 128px;
 
   display: flex;
+  justify-content: center;
   align-items: center;
 }
 
@@ -28,16 +29,20 @@
 }
 
 .social-icon-dark {
-  display: hidden;
+  display: none;
 }
 
 .social-icon-white {
-  display: hidden;
+  display: none;
 }
 
 .social-icon-white-dark {
   display: block;
   cursor: pointer;
+}
+
+#footer-logo-container {
+  margin-left: 200px;
 }
 
 .footer-logo {
