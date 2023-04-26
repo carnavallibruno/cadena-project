@@ -3,11 +3,13 @@
   height: 767.5px;
 
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
 #hero-container {
+  
   width: 88.88%;
   height: 607.5px;
 
@@ -36,6 +38,7 @@
   justify-content: space-between;
   align-items: center;
 
+  cursor: pointer;
 
   background: #F9F5FF;
   color: #6941C6;
@@ -52,6 +55,14 @@
   background: #FFFFFF;
 
   margin-left: 4px;
+
+  display: flex;
+  align-items:center;
+  justify-content: center;
+}
+
+.purple-arrow {
+  margin-right: 10px;
 }
 
 .discount-new-dark {
@@ -114,6 +125,9 @@
   margin-top: 32px;
 }
 
+#hero-img-container {
+  height: 100%;
+}
 
 @media screen and (max-width: 376px) {
   #hero-section {
