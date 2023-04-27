@@ -42,7 +42,7 @@
   color: #6941C6;
 }
 
-#discount-new {
+.discount-new {
   width: 55px;
   height: 24px;
   border-radius: 16px;
@@ -83,7 +83,7 @@
   margin-top: 16px;
 }
 
-#hero-content-title {
+.hero-content-title {
   color: #1B1C20;
 
   height: 177px;
@@ -98,7 +98,7 @@
   color: #FFFFFF;
 }
 
-#hero-content-text {
+.hero-content-text {
   color: #383A47;
 
   font-size: 20px;
@@ -175,7 +175,7 @@
     height: 205px;
   }
 
-  #hero-content-title {
+.hero-content-title {
     width: 88.88%;
     height: 129px;
 
@@ -183,7 +183,7 @@
     line-height: 43px;
   }
 
-  #hero-content-text {
+.hero-content-text {
     margin-top: 16px;
 
     font-size: 16px;

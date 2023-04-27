@@ -17,7 +17,7 @@
   align-items: center;
 }
 
-#features-title-container-h4 {
+.features-title-container-h4 {
   color: #1B1C20;
 
   width: 708.64px;
@@ -32,7 +32,7 @@
 }
 
 .features-title-container-h4-dark {
-  color: #1B1C20;
+  color: #FFFFFF;
 }
 
 #features-content-container {
@@ -179,7 +179,7 @@
     height: 2035.68px;
   }
 
-  #features-title-container-h4 {
+  .features-title-container-h4 {
     width: 335px;
     height: 32px;
 

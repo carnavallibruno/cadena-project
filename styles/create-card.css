@@ -7,7 +7,7 @@
   align-items: center;
 }
 
-#create-card-content-container {
+.create-card-content-container {
   width: 88.88%;
   height: 670.72px;
 
@@ -21,6 +21,9 @@
 
 .create-card-content-container-dark {
   background: #1B1C20;
+  background-image: url('../assets/images/cards.png');
+  background-position: right bottom;
+  background-repeat: no-repeat;
 }
 
 #content-container {
@@ -43,7 +46,7 @@
   justify-content: space-between;
 }
 
-#top-container-title {
+.top-container-title {
   color: #383A47;
 
   width: 432px;
@@ -58,7 +61,7 @@
   color: #FFFFFF;
 }
 
-#top-container-text {
+.top-container-text {
   color: #797B89;
 
   font-weight: 400;
@@ -71,12 +74,15 @@
   color: #B8B8B8;
 }
 
-#get-a-card-button {
+.get-a-card-button {
   color: #FFFFFF;
   background: #0F0F14;
   border: 2px solid #000000;
 
   font-family: 'Satoshi';
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: -0.4px;
 
   width: 163.2px;
   height: 56px;
@@ -95,6 +101,22 @@
   background: #FFFFFF;
 }
 
+.white-arrow {
+  display: block;
+}
+
+.white-arrow-dark {
+  display: none;
+}
+
+.black-arrow {
+  display: none;
+}
+
+.black-arrow-dark {
+  display: block;
+}
+
 #button-content-container {
   width: 109.2px;
   height: 24px;
@@ -110,7 +132,7 @@
     height: 926.72px;
   }
 
-  #create-card-content-container {
+  .create-card-content-container {
     width: 89.33%;
     height: 802px;
 
@@ -130,19 +152,19 @@
     height: 268px;
   }
   
-  #top-container-title {
+  .top-container-title {
     width: 295px;
 
     font-size: 24px;
     line-height: 32px;
   }
   
-  #top-container-text {
+  .top-container-text {
     font-size: 16px;  
     line-height: 30px;
   }
 
-  #get-a-card-button {
+  .get-a-card-button {
     width: 150px;
     height: 50px;
   }

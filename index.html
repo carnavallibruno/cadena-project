@@ -26,18 +26,18 @@
     <title>Cadena</title>
   </head>
   <body>
-    <header>
+    <header id="header">
       <div id="header-container">
         <div id="header-left">
           <div id="logo-container">
             <img
               src="./assets/images/cadena-logo.svg"
-              id="logo-image"
+              class="logo-image"
               alt="Cadena Logo"
             />
             <img
               src="./assets/images/cadena-logo-white.svg"
-              id="logo-image-white"
+              class="logo-image-white"
               alt="Cadena Logo"
             />
           </div>
@@ -50,14 +50,17 @@
           </nav>
         </div>
         <div id="theme-switch-container">
-          <button id="theme-switch" onclick="switchThemes()">Switch</button>
+          <button class="theme-switch" onclick="switchThemes()">Switch</button>
         </div>
         <div id="header-buttons">
-          <button id="login-button">Login</button>
-          <button id="signup-button">Sign up</button>
+          <button class="login-button">Login</button>
+          <button class="signup-button">Sign up</button>
         </div>
-        <div id="hamburger-menu">
+        <div class="hamburger-menu">
           <img src="./assets/icons/menu-hamburger.svg" alt="" />
+        </div>
+        <div class="hamburger-menu-white">
+          <img src="./assets/icons/menu-hamburger-white.svg" alt="" />
         </div>
       </div>
     </header>
@@ -66,7 +69,7 @@
         <div id="hero-left-container">
           <div>
             <button id="discount-button">
-              <div id="discount-new">New!</div>
+              <div class="discount-new">New!</div>
               <p id="discount-phrase">Refer a friend & Get 25%</p>
               <img
                 src="./assets/icons/purple-arrow.svg"
@@ -76,10 +79,10 @@
             </button>
           </div>
           <div id="hero-content">
-            <h3 id="hero-content-title">
+            <h3 class="hero-content-title">
               Spend your <span>Money in Style</span> with a Customized Card
             </h3>
-            <p id="hero-content-text">
+            <p class="hero-content-text">
               Use your digital card for online purchases, in-store purchases,
               and more.
             </p>
@@ -114,7 +117,7 @@
     </section>
     <section id="partners">
       <div id="partners-container">
-        <div id="partners-text">
+        <div class="partners-text">
           <p>Trusted by 3000+ partners and customers</p>
         </div>
         <div id="partners-logos">
@@ -131,7 +134,7 @@
       <section id="features">
         <div id="features-main-container">
           <div id="features-title-container">
-            <h4 id="features-title-container-h4">
+            <h4 class="features-title-container-h4">
               Flex Your Digital Wealth with
               <span>Cadena</span>
             </h4>
@@ -207,13 +210,13 @@
         </div>
       </section>
       <section id="create-card">
-        <div id="create-card-content-container">
+        <div class="create-card-content-container">
           <div id="content-container">
             <div id="top-container">
-              <h3 id="top-container-title">
+              <h3 class="top-container-title">
                 Create Unique Cards in <span>Style</span>
               </h3>
-              <p id="top-container-text">
+              <p class="top-container-text">
                 Our cards offer more than just attractive design. They also
                 feature instant payment notifications and in-app card security
                 management. Plus, you can start making purchases right away
@@ -221,12 +224,18 @@
               </p>
             </div>
             <div id="button-container">
-              <button id="get-a-card-button">
+              <button class="get-a-card-button">
                 <div id="button-content-container">
                   <p>Get a Card</p>
                   <img
                     src="./assets/icons/white-arrow.svg"
                     alt="Button arrow"
+                    class="white-arrow"
+                  />
+                  <img
+                    src="./assets/icons/black-arrow.svg"
+                    alt="Button arrow"
+                    class="black-arrow"
                   />
                 </div>
               </button>

@@ -11,6 +11,10 @@ header {
   background: #FAF8F5;
 }
 
+.header-dark {
+  background: #060809;
+}
+
 #header-container {
   width: 88.88%;
   height: 44px;
@@ -35,7 +39,7 @@ header {
   cursor: pointer;
 }
 
-#logo-image {
+.logo-image {
   width: 100%;
 }
 
@@ -43,12 +47,12 @@ header {
   display: none;
 }
 
-#logo-image-white {
+.logo-image-white {
   display: none;
 }
 
 .logo-image-white-dark {
-  display: block;
+  display: inline;
 }
 
 #navbar-items-container {
@@ -72,7 +76,7 @@ header {
   color: #FFFFFF;
 }
 
-#theme-switch {
+.theme-switch {
   color: #1B1C20;
   
   font-family: 'Satoshi', sans-serif;
@@ -94,7 +98,7 @@ header {
   align-items: center;
 }
 
-#login-button {
+.login-button {
   font-family: 'Satoshi', sans-serif;
   font-weight: 700;
   font-size: 16px;
@@ -110,7 +114,7 @@ header {
   color: #FFFFFF;
 }
 
-#signup-button {
+.signup-button {
   font-family: 'Satoshi', sans-serif;
   font-weight: 700;
   font-size: 16px;
@@ -132,10 +136,13 @@ header {
   background-color: #FFFFFF;
 }
 
-#hamburger-menu {
+.hamburger-menu {
   display: none;
 }
 
+.hamburger-menu-white {
+  display: none;
+}
 
 
 @media screen and (max-width: 376px) {
@@ -165,7 +172,19 @@ header {
   }
 
 
-  #hamburger-menu {
+  .hamburger-menu {
+    display: block;
+  }
+
+  .hamburger-menu-dark {
+    display: none;
+  }
+
+  .hamburger-menu-white {
+    display: none;
+  }
+  
+  .hamburger-menu-white-dark {
     display: block;
   }
 }
